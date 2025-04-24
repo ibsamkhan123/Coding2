@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Ordered List</h2>
+    <ul>
+        <li>Home</li>
+        <li>Abouh us</li>
+        <li>Contact us</li>
+    </ul>
+    <h2>Unordered List</h2>
+    <ol>
+    <li>Home</li>
+    <li>Abouh us</li>
+    <li>Contact us</li>
+    </ol>
+    <h2>Defination List</h2>
+    <dl>
+        <dt>Home</dt>
+        <dd>This is Home page</dd>
+        <dt>Abouh us</dt>
+        <dd> Abouth page</dd>
+        <dt>Contact us</dt>
+        <dd>Contact page</dd>
+    </dl>
+</body>
+</html>
