@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="result"></p> 
+        <script>
+            var myObj = { name: "Ayia", age: "19", grade: 13 };
+            var myJSON = JSON.stringify(myObj);//converts Object to JSON for sending data
+            var newObj = JSON.parse(myJSON);//converts JSON in object while recieving data
+            document.getElementById("result").innerHTML = newObj.name;
+        </script>  
+     </body>
+</html>
