@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Navbar</title>
+    <style>
+        body {
+            margin: 0.5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: darkgreen;
+        }
+
+        .topnav a {
+            float: left;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .topnav a;
+
+        hover {
+            background-color: darkseagreen;
+            color: white;
+        }
+
+        .topnav a:active {
+            background-color: chartreuse;
+            color: black;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="topnav">
+            <a class="active" href="Home Page.html">home</a>
+            <a href="Learn More.html">learn more</a>
+            <a href="Famous Atheletes.html">FAMOUS ATHELETES</a>
+        </div>
+        You Are In FAmous atheletes Page
+        <!--Slide Show-->
+        <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmu6ciG6juna0jLtI-Js73wZbfzdAeTl-D2g&s">
+        <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdh6oyt7oGSRg_cOkMYR4w929t0UVMNxUYCQ&s">
+        <div class="footer">
+            <p>copy all rights and reserved by ibsam khan </p>
+        </div>
+    </section>
+    <script>
+        <!--Automatic slideshow - change pic every 3 seconds-->
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) { x[i].style.display = "none"; } myIndex++; if (myIndex > x.length) {
+                myIndex =
+                1
+            }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+
+</body>
+
+</html>
